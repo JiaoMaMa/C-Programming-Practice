@@ -159,6 +159,7 @@ int size(node* root)
 	}
 }
 
+//helper funtion to copy a tree into an existing pointer to a tree
 void copyTree(node** copy, node* root)
 {
 	if (root != NULL)
